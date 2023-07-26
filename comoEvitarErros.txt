@@ -1,0 +1,3 @@
+como os problemas vivenciados por você poderiam ter sido evitados antes que chegassem até até você?
+
+Os problemas de modo geral, ocorrem quando uma atualização ocorre sem ter sido testada adequadamente, para evitar a grande maioria dos problemas, a periodo de teste é essencial para o produto final. 

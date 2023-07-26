@@ -1,0 +1,9 @@
+bugs da tela de login
+
+1 - Não é possível realizar o cadastro. 2 - Não é possível redefinir a senha.
+
+bugs na home
+
+1 - Erro ao entrar na “Estante”. 2 - Não é possível cadastrar livros. 3 - Vários links vazios. 4 - Segurança não corresponde à LGPD. 5 - Opção de sair não está funcionando nas telas: Cadastrar usuários, Quem somos. 6 - Ao cadastrar, ao confirmar e-mail e senha, o sistema não reconhece a informação do campo principal e não realiza a verificação, permitindo passar informações incorretas. 7 - Minha estante e cadastrar livros não estão funcionando. 8 - O campo de Nome Completo na aba contato está permitindo a entrada de dados numéricos. 9 - Não possui nível de acesso. 10 - Não possui a listagem de livros. 11 - Não atende à função principal necessária. 12 - O campo de e-mail da aba contato não está sendo validado.
+
+O sistema apresentado se trata de um acervo de livros, em que nossos clientes se constituem em terceiros que realizam o cadastro de livros e leituras novas. Os clientes esperam ter um local para cadastrar os livros já lidos, os que querem ler e os que estão lendo. Os usuários estão tendo acesso ao perfil de administrador.
