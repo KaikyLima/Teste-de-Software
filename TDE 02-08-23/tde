@@ -1,0 +1,48 @@
+1 -Como funciona um fluxo de fechamento de caixa? 
+
+    O fluxo de caixa é uma ferramenta que permite monitorar as entradas e saídas de dinheiro das contas da empresa, bem como avaliar a saúde financeira e o planejamento financeiro do negócio1.
+
+    Para fazer um fechamento de caixa, é preciso seguir alguns passos, como:
+        > Verificar o saldo inicial da empresa;
+        > Identificar e categorizar as receitas e despesas;
+        > Registrar todas as movimentações financeiras do dia;
+        > Dar baixa nas transações realizadas;
+        > Atualizar os lançamentos quando necessário;
+        > Conferir se o saldo final bate com o esperado;
+        > Emitir um relatório de fechamento de caixa.
+        > O caixa sempre precisa iniciar com um saldo positivo, para poder emitir trocos
+
+2 - Quais os movimentos que podem ser gerados no fluxo de caixa de um estabelecimento?
+
+    Os movimentos que podem ser gerados são basicamente as entradas e saídas de dinheiro que ocorrem em um certo período de tempo. As entradas são os valores que a empresa recebe de vendas, rendimentos, recebimentos, etc.
+
+
+3 - Qual o modelo de tela (protótipo) será utilizado, quais os campos obrigatórios, teremos?
+
+    > Data: um campo para inserir a data do fechamento de caixa;
+
+    > Saldo Inicial: um campo para informar o valor inicial do caixa;
+
+    > Entradas: um campo para informar o valor total das entradas de dinheiro no caixa;
+
+    > Saídas: um campo para informar o valor total das saídas de dinheiro do caixa;
+
+    > Sangrias: um campo para informar o valor total das retiradas de dinheiro do caixa;
+
+    > Reforços: um campo para informar o valor total dos depósitos de dinheiro no caixa;
+
+    > Saldo Final: um campo que mostra o valor final do caixa, calculado pela fórmula: saldo inicial + entradas - saídas - sangrias + reforços;
+
+    > Diferença: um campo que mostra a diferença entre o saldo final e o esperado, calculado pela fórmula: saldo final - esperado;
+
+    > Esperado: um campo para informar o valor esperado do caixa, baseado nas formas de pagamento e nos lançamentos realizados;
+
+    > Observações: um campo para inserir comentários ou justificativas sobre o fechamento de caixa;
+
+    > Botão Salvar: um botão para salvar os dados do fechamento de caixa;
+
+    > Botão Cancelar: um botão para cancelar o fechamento de caixa.
+
+4 - Tenho que ter uma única opção para fechamento do caixa?
+
+    Deveria ser possível realizar o fechamento em periodos variados
