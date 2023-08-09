@@ -115,6 +115,12 @@ realizar os registro pode mudar conforme cada caso)
 *Então*: deverá ser realizado o calculo com valor e quantidade dos produtos<br>
 *Mas*: não deve adicionar produtos sem estoque
 
+
+# Mapa mental
+ ![](./Mind%20Maps%20(2).jpg)
+
+
+
 # 
 
 Durante o desenvolvimento da aplicação devem ser verificados diversos pontos de segurança, para não permitir que os usuários sem o acesso de adminstrador possuam acesso a endpoints de manipulação de produto, usuários ou realização de compras, podendo causar grandes prejuizos para a plataforma e para outros usuários. Não deve ser permitido o cadastro de informações de forma incorreta, como valores negativo, senha com baixa segurança, usuários com mesmo email/login. Durante o fechamento do carrinho e realização da compra devem ser realizadas verificações para informar/alertar o usuário sobre o fim do estoque do produto selecionado, os mesmo não deve ser adicionados ao valor de fechamento da compra, pois não seriam entregues ou causariam grandes transtornas para a empresa. A permanencia da página do produto de forma correta após o fim de estoque, poderia aumentar a quantidade de vendas, capturar leads de forma mais efetiva. Deve ser realizada a captura de informações importantes dos usuários durante o fechamento da conta para maior segurança e para posteriormente disponibilizar notas fiscais.
