@@ -23,21 +23,66 @@ Respostas:
 *Para*: disponibilizar para venda
 
 *Cenário*: Cadastrando produto <br>
-*Dado que*: não esteja cadastrado anteriormente<br>
+*Dado que*: produto não esteja cadastrado anteriormente<br>
 *E*: todas as informações necessárias sejam informadas<br>
 *Quando*: for realizada um cadastro no estoque<br>
-*Então*: disponibilizado para venda aos clientes<br>
+*Então*: deverá ser disponibilizado para venda aos clientes<br>
 *Mas*: não deve permitir a finalização do cadastro caso não sejam informados todos os campos obrigatórios
 
+- 
 
-*Funcionalidade*: Tela de Login<br>
-*Como*: Usuário deve informar suas credenciais<br>
+*Funcionalidade*: Acessar sistema<br>
+*Como*: Cliente<br>
 *Desejo*: Receber acesso a aplicação<br>
 *Para*: finalizar o processo de compra  
 
 *Cenário*: Realizar o login na plataforma<br>
 *Dado que*: o usuário informe as credenciais <br>
-*E*: seja referente a um usuário<br>
+*E*: seja referente a um usuário válido<br>
 *Quando*: Informar as credenciais corretamente <br>
 *Então*: deverá ser permitido a entrada no sistema<br>
-*Mas*: não deve ser permitida a entrada com credeciais inválidas
+*Mas*: não deve permitir a entrada com credenciais inválidas
+
+- 
+
+*Funcionalidade*: Acessar sistema<br>
+*Como*: Administrador da aplicação<br>
+*Desejo*: Receber acesso a aplicação com acesso de administrador<br>
+*Para*: cadastrar editar informações dos produtos
+
+*Cenário*: Realizar o login na plataforma<br>
+*Dado que*: o usuário informe as credenciais de um administrador<br>
+*E*: seja referente a um usuário válido<br>
+*Quando*: Informar as credenciais corretamente <br>
+*Então*: deverá ser apresentada as opções de adminstrador<br>
+*Mas*: não deve ser permitida essa visualização para clientes
+
+- 
+
+*Funcionalidade*: Cadastrar Usuário<br>
+*Como*: Clientes<br>
+*Desejo*: Criar novo acesso para a plataforma <br>
+*Para*: receber acesso a plataforma e realizar compras 
+
+*Cenário*: Cadastrar novo usuário<br>
+*Dado que*: o usuário informe 
+ dados válidos<br>
+*E*: não exista outro com informações iguais<br>
+*Quando*: Informar os dados corretamente <br>
+*Então*: deverá ser realizado o cadastro de um novo acesso<br>
+*Mas*: não deve ser permitida o cadastro de usuário iguais
+
+- 
+
+*Funcionalidade*: Cadastrar Categoria<br>
+*Como*: Administrador da aplicação <br>
+*Desejo*: disponibilizar nova categoria<br>
+*Para*: referenciar produto com ela
+
+*Cenário*: <br>
+*Dado que*: o usuário informe 
+ dados válidos<br>
+*E*: não exista outro com informações iguais<br>
+*Quando*: Informar os dados corretamente <br>
+*Então*: deverá ser realizado o cadastro de um novo acesso<br>
+*Mas*: não deve ser permitida o cadastro de usuário iguais
