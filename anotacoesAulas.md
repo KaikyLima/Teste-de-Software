@@ -117,3 +117,14 @@ Teste de regreção serve para verificar para se todas as funções antigas aind
 - Execução dos testes
 - Relatórios de incidentes
 - Documentação da evidencia dos testes executados
+
+
+### Qual tipo de teste tem como objetivo testar cada nova versão do sistema, para verificar se a atualização não casou bugs?
+- Teste de regressão
+
+
+Falha: É o funcionamento inesperado do software
+
+Defeito: um código mal escrito
+
+Erro: é uma falha humana
