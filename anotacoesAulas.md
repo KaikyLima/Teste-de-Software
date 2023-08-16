@@ -106,14 +106,14 @@ ___
 
 - analise de valor limite:
 - partições de equivalencia: 
-- caixa branca: 
+- caixa branca: V
 - caixa preta:
 
 Teste de regreção serve para verificar para se todas as funções antigas ainda estão funcionandos
 
 ### Quais são os principais passos nos procesos de teste de software
 - Planejamento do teste
-- Desenvolvimento dos casos de testes (caso de teste, é descrever o teste que será feito)
+- Desenvolvimento dos casos de testes (caso de teste: é descrever o teste que será feito| Exemplo: Quando cadastrar um novo uusário, sem informar os campos obrigatórios, então o usuário não será cadastrado)
 - Execução dos testes
 - Relatórios de incidentes
 - Documentação da evidencia dos testes executados
@@ -122,9 +122,15 @@ Teste de regreção serve para verificar para se todas as funções antigas aind
 ### Qual tipo de teste tem como objetivo testar cada nova versão do sistema, para verificar se a atualização não casou bugs?
 - Teste de regressão
 
+### Definição dos problemas
 
-Falha: É o funcionamento inesperado do software
+**Falha: É o funcionamento inesperado do software**
 
-Defeito: um código mal escrito
+**Defeito: um código mal escrito**
 
-Erro: é uma falha humana
+**Erro: é uma falha humana**
+
+### Cypress
+Comandos: 
+
+
