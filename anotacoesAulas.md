@@ -106,8 +106,8 @@ ___
 
 - analise de valor limite:
 - partições de equivalencia: 
-- caixa branca: V
-- caixa preta:
+- caixa branca: Irá testar o backend do programa, verificar toda a estrutura do código e executar para validação
+- caixa preta: Ele realiza os testes na parte do front-end, ignorando totalmente o código fonte da aplicação
 
 Teste de regreção serve para verificar para se todas as funções antigas ainda estão funcionandos
 
@@ -124,13 +124,37 @@ Teste de regreção serve para verificar para se todas as funções antigas aind
 
 ### Definição dos problemas
 
-**Falha: É o funcionamento inesperado do software**
+**Falha: É o funcionamento inesperado do software**  é o funcionamento inesperado das funções do software.
 
-**Defeito: um código mal escrito**
+**Defeito: um código mal escrito** é o resultado de um código mal escrito que causa anomalia no funcionamento de um sistema
 
-**Erro: é uma falha humana**
+**Erro: é uma falha humana** é uma falha humana e produz resultado incorreto
 
 ### Cypress
 Comandos: 
+
+**Describe**
+
+describe('AQUI SERÃO INSERIDOS TODOS OS CASOS DE TESTES (DENTRO DESSA SUITE DE TESTES)', () => {
+  it('CASO DE TESTES', () => { // Posso ter quantos testes eu quiser
+    cy.visit('https://www.grupointegrado.br/')
+  })
+describe('Caso de testes - Exercicio no site Amazon', () => {
+    beforeEach(() => { // Todos os its depois do beforeEach serão visitados na página citada
+        cy.visit('https://www.amazon.com.br/')
+    })
+
+**it.only**    
+
+it.only('Validando pesquisa no google...', () => { // .only para ser executado só esse campo
+    cy.visit('https://www.google.com/')  // Visita o site informado
+    cy.title().should('be.equal', 'Google') // Verificação do titulo
+    cy.get(campoGoogle).click() // Clica no campo informado
+    cy.get(campoGoogle).type('Cypress') // Digita no campo informado
+    cy.get('.aajZCb > .lJ9FBc > center > .gNO89b').click()
+    cy.contains(‘’,’Amazon’) // Valida se o botão Amazon está na tela
+cy.wait(1000)
+cy.get(‘’).first().click() // Verifica o direcionamento 
+  })
 
 
