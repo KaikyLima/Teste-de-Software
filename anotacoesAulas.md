@@ -72,3 +72,48 @@ ___
 - Evitar prejuizos financeiros
 - evitar erros em produção
 - Segurança
+
+
+***Ninguém toma uma vacina sem que seja testada anteriormente***
+
+### Como podemos definir testes manuais e os automatizados?
+
+- O teste manual necessita de uma ação humana presente durante **todas** as etapas dos teste. 
+    |Desvantagem:| vantagens|
+    |--|--|
+    |é um teste mais demorado e mais caro, pode ocorrer um falha ao esquecer de testar uma funcionalidade | Possui uma maior flexibilidade ao realizar os testes, NÃO possui limitações por ambiente
+
+    ---
+
+- O teste automático não necessita de uma pessoa em todo o momento, apenas para iniciar o teste
+    |Desvantagem:| vantagens|
+    |--|--|
+    |Economiza tempo e recursos ao longo prazo,|Demanado recursos e tempo para a sua criação inicial|
+
+    ---
+
+### Tipos de testes
+
+- Unidade: Testa a unidade de forma individual (ele é feito pelo DEV), ele irá testar as clases separadamente
+
+- Integração: testa as integrações entre os componentes, ele irá verificar se os componentes estão se comunicando corretamente entre si
+
+- Sistema: testa o sistema como o todo, ele verifica se o sistema está funcionando de uma maneira geral
+
+- Aceitação: Valida se os requisitos foram atendidos, vai validar se todos os requisitos do **cliente** foram atendidos
+
+### Quais as técnicas de testes 
+
+- analise de valor limite:
+- partições de equivalencia: 
+- caixa branca: 
+- caixa preta:
+
+Teste de regreção serve para verificar para se todas as funções antigas ainda estão funcionandos
+
+### Quais são os principais passos nos procesos de teste de software
+- Planejamento do teste
+- Desenvolvimento dos casos de testes (caso de teste, é descrever o teste que será feito)
+- Execução dos testes
+- Relatórios de incidentes
+- Documentação da evidencia dos testes executados
